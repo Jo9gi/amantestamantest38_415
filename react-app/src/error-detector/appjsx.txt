@@ -1,0 +1,9 @@
+import { ErrorMonitor } from './error-detector'
+
+<BrowserRouter>
+          {/* Error Detection Module - Plug and Play Component */}
+          <ErrorMonitor
+            maxErrors={10}
+            showStatistics={true}
+            autoShowPopup={false}  // Set to true to automatically show popup on new errors
+          />
