@@ -75,7 +75,7 @@ export default function Login() {
   return (
     <div className="min-h-screen flex" style={{ backgroundColor: '#F5F1EB' }}>
       <AuthPanel>
-        <h1 className="text-3xl sm:text-4xl font-bold text-white leading-tight mb-4">Welcome back<br />to your<br />customer portal.</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-white leading-tight mb-4">Hello<br />to your<br />customer portal.</h1>
         <p className="text-white/60 text-sm leading-relaxed max-w-xs">Manage your account and access your personalized dashboard with ease.</p>
       </AuthPanel>
       <div className="flex-1 flex items-center justify-center px-4 sm:px-6 py-8">
@@ -86,7 +86,7 @@ export default function Login() {
           </div>
           <div className="bg-white rounded-2xl p-5 sm:p-7 border border-gray-100 shadow-sm">
             <div className="text-center mb-5">
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-1">Welcome back</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-1">Hello</h2>
               <p className="text-sm text-gray-500">Sign in to your account</p>
             </div>
             {serverError && (<div className="p-2.5 bg-error-50 border border-error-200 rounded-xl mb-3 animate-fade-in"><p className="text-sm text-error-600">{serverError}</p></div>)}
